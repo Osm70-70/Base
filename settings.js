@@ -7,16 +7,16 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.ownerNumber = ['6285840701172']
-global.ownerName = 'Code Crew'
+global.ownerNumber = ['21291958574']
+global.ownerName = 'Osama'
 
-global.botName = 'Charlotte Linlin'
-global.footer = 'Powered By Whatsapp Messenger'
+global.botName = 'OSMBOT'
+global.footer = 'Powered By Osama'
 global.thumb = 'https://telegra.ph/file/71c196cc44dbe175c72c0.jpg'
 global.payment = 'https://telegra.ph/file/0942429295acf18bec623.jpg'
 
-global.packname = 'Powered By'
-global.author = 'Whatsapp'
+global.packname = 'Powered By Osama'
+global.author = 'Osama'
 
 global.prefa = ['','.','#','!']
 
