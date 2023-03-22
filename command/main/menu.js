@@ -19,7 +19,7 @@ module.exports = {
       teks += `\n`
     }
     
-    let but = [{buttonId: `.sc`, buttonText: {displayText: 'Script 📚'}, type: 1}, {buttonId: `.owner`, buttonText: {displayText: 'Owner 👤'}, type: 1},]
+    let but = [{buttonId: `.owner`, buttonText: {displayText: 'Owner 👤'}, type: 1},]
     mom.sendMessage(m.from, { image: await getBuffer(global.thumb), caption: teks, footer: global.footer, buttons: but, mentions: [m.sender]}, { quoted: m })
   }
 }
