@@ -1,8 +1,3 @@
-/**
-   * Made By Code Crew Team 🕴️
-   * Subscribe NZRLAFNDI
-   * Follow https://github.com/NzrlAfndi
-*/
 
 const fs = require('fs')
 const chalk = require('chalk')
@@ -21,8 +16,8 @@ global.author = 'Osama'
 global.prefa = ['','.','#','!']
 
 global.quotes = {
-  welcome: 'Semoga Kamu Betah Berada Disini Dan Jangan Lupa Untuk Selalu Mengikuti Rules Yang Ada',
-  leave: 'Semoga Amal Ibadahmu Diterima Disisi-Nya'
+  welcome: '',
+  leave: ''
 }
 
 global.mess = (type, m) => {
